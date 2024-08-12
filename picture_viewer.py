@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import ImageTk,Image
 root = Tk()
 root.title("Animal Album")
-root.geometry("400x400")
+#root.geometry("400x400")
 root.iconbitmap('favicon.ico')
 
 img1 = ImageTk.PhotoImage(Image.open("s_image/cheetah.jpg"))
